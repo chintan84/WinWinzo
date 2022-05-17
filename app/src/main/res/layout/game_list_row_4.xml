@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:layout_margin="2dp"
+    android:orientation="vertical">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:cardElevation="3dp"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="12dp">
+
+        <ImageView
+            android:id="@+id/book_img_id"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:src="@drawable/a20a" />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/book_title_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:text="Candy Bubble Shooter 2"
+        android:textAlignment="center"
+        android:textSize="14dp"
+        android:textColor="@color/darkgray"
+        android:textStyle="normal" />
+</LinearLayout>

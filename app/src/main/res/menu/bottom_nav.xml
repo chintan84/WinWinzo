@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_game_zop"
+        android:enabled="true"
+        android:icon="@drawable/ic_game"
+        android:title="Games" />
+    <item
+        android:id="@+id/navigation_qureka_lite"
+        android:enabled="true"
+        android:icon="@drawable/ic_earnings"
+        android:title="Earn Money" />
+    <item
+        android:id="@+id/navigation_home"
+        android:enabled="true"
+        android:icon="@drawable/ic_game_home"
+        android:title="Home" />
+    <item
+        android:id="@+id/navigation_earn_money"
+        android:enabled="true"
+        android:icon="@drawable/ic_puzzle"
+        android:title="Popular" />
+    <item
+        android:id="@+id/navigation_famobi_games"
+        android:enabled="true"
+        android:icon="@drawable/ic_block"
+        android:title="3D Games" />
+</menu>
